@@ -32,7 +32,7 @@ public:
 		case 1:
 			cout << "выбран режим игрок против игрока\n";
 			checkField(ar);
-			test3(ar);
+			test(ar);
 			checkField(ar);
 			checkwin(ar);
 			
@@ -56,7 +56,7 @@ public:
 	}
 	void test(int ar[][3]) {
 		int h = 2;
-		for (int i = 0; i < 2; i++) {
+		for (int i = 0; i < 3; i++) {
 			ar[i][h] = 3;
 		}
 	}
@@ -123,7 +123,7 @@ public:
 						}
 					}
 					if (x == 3) {
-						cout << x;
+
 						win(2);
 					}
 				}
@@ -133,7 +133,7 @@ public:
 					}
 
 					if (o == 3) {
-						cout << o;
+
 						win(3);
 					}
 				}
@@ -152,7 +152,7 @@ public:
 						}
 					}
 					if (x == 3) {
-						cout << x;
+
 						win(2);
 					}
 				}
@@ -163,7 +163,7 @@ public:
 						}
 
 						if (o == 3) {
-							cout << o;
+
 							win(3);
 						}
 					}
@@ -183,7 +183,7 @@ public:
 						}
 					}
 					if (x == 3) {
-						cout << x;
+
 						win(2);
 					}
 				}
@@ -194,7 +194,7 @@ public:
 						}
 
 						if (o == 3) {
-							cout << o;
+
 							win(3);
 						}
 					}
